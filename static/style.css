@@ -1,0 +1,121 @@
+.card{position: relative;
+background-color: purple;
+border:1px solid black;
+font-size: 10px;
+float: left;
+width: 3.8em;
+height: 5em;
+}
+.card .front {
+background-color: #fff;
+color: #000;
+position: absolute;
+width: 100%;
+height: 100%;
+}
+
+.card .corner {
+position: absolute;
+font-size: .5em;
+left: 0.25em;
+top: 0.25em;
+}
+.card .corner {
+left: auto;
+top: auto;
+right: 0.25em;
+bottom: 0.25em;
+}
+
+.card .flip {
+    -webkit-transform: rotate(180deg); 
+    -moz-transform: rotate(180deg);
+    /*filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);*/
+    writing-mode: tb-rl;
+}
+
+.card .red {
+color: #f00;
+}
+
+.card .suit {
+position: absolute;
+z-index:2;
+}
+/* large center Ace style suit */
+.card .suit0 {
+font-size: 3em;
+left: 0.3em;
+top: 0.3em;
+}
+
+.card .face {
+position: absolute;
+z-index:1;
+border: 1px solid #000;
+left: 0.6em;
+top: 0.45em;
+width: 2.5em;
+height: 4.em;
+}
+
+.card .A1 {
+left: 0.7em;
+top: 0.5em;
+}
+.card .A2 {
+left: 0.7em;
+top: 1.5em;
+}
+.card .A3 {
+left: 0.7em;
+top: 2.0em;
+}
+.card .A4 {
+left: 0.7em;
+top: 2.5em;
+}
+.card .A5 {
+left: 0.7em;
+top: 3.5em;
+}
+.card .B1 {
+left: 1.6em;
+top: 0.5em;
+}
+.card .B2 {
+left: 1.6em;
+top: 1.0em;
+}
+.card .B3 {
+left: 1.6em;
+top: 2.0em;
+}
+.card .B4 {
+left: 1.6em;
+top: 3.0em;
+}
+.card .B5 {
+left: 1.6em;
+top: 3.5em;
+}
+.card .C1 {
+left: 2.45em;
+top: 0.5em;
+}
+.card .C2 {
+left: 2.45em;
+top: 1.5em;
+}
+.card .C3 {
+left: 2.45em;
+top: 2.0em;
+}
+.card .C4 {
+left: 2.45em;
+top: 2.5em;
+}
+.card .C5 {
+left: 2.45em;
+top: 3.5em;
+}
